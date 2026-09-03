@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.8;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.header {
+  padding: 30px 0 15px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top {
+  margin-bottom: 30px;
+}
+
+.nav {
+  margin-bottom: 40px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-list a {
+  color: #776b5d;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #00712d;
+}
+
+.section {
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+
+.heading {
+  margin-bottom: 25px;
+}
+
+.heading img {
+  height: 28px;
+  width: auto;
+}
+
+.about p {
+  font-size: 13px;
+  color: #666666;
+  letter-spacing: 0.5px;
+}
+
+.menu {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-list {
+  list-style: none;
+  text-align: left;
+}
+
+.menu-list li {
+  font-size: 13px;
+  color: #555555;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.photo-list li {
+  width: calc(50% - 7.5px);
+}
+
+.photo-list li.photo-wide {
+  width: 100%;
+}
+
+.photo-list img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.photo-list li.photo-wide img {
+  height: 380px;
+}
+
+.access-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #555555;
+}
+
+.footer {
+  background-color: #00712d;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-nav a {
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.footer-nav a:hover {
+  opacity: 1;
+}
+
+small {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .photo-list li {
+    width: 100%;
+  }
+
+  .photo-list img,
+  .photo-list li.photo-wide img {
+    height: 220px;
+  }
+
+  .nav-list,
+  .footer-nav ul {
+    gap: 20px;
+  }
+}
