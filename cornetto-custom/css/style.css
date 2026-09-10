@@ -1,22 +1,17 @@
 @charset "utf-8";
 
-/* ========================================
-   初期スタイル調整
-   ======================================== */
 * {
   box-sizing: border-box;
 }
 
-/* body全体の初期スタイル調整 */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, "メイリオ", Meiryo, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #333333;
-  background-color: #fff;
+  background-color: #f2f7f4;
 }
 
-/* 各要素の初期スタイル調整 */
 h1, h2 {
   margin-top: 0;
   margin-bottom: 30px;
@@ -57,16 +52,12 @@ address {
   font-style: normal;
 }
 
-/* ========================================
-   ヘッダーエリア
-   ======================================== */
 .header {
   width: 1000px;
   margin: 0 auto;
   padding: 30px 0 20px;
 }
 
-/* ロゴ */
 .logo {
   margin: 0;
   text-align: center;
@@ -75,22 +66,17 @@ address {
 .logo img {
   width: 50px;
 }
-
-/* ========================================
-   メインエリア
-   ======================================== */
 .main {
   width: 1000px;
   margin: 0 auto;
 }
 
-/* メインイメージ */
 .top {
   margin-bottom: 30px;
   text-align: center;
 }
 
-/* ナビゲーション */
+
 .nav {
   margin-bottom: 50px;
   text-align: center;
@@ -121,14 +107,10 @@ address {
   text-decoration: none;
 }
 
-/* ========================================
-   セクション共通
-   ======================================== */
 .section {
   margin: 0 auto 80px;
 }
 
-/* 見出し */
 .heading {
   margin-bottom: 30px;
   text-align: center;
@@ -139,7 +121,6 @@ address {
   width: auto;
 }
 
-/* セクション about */
 .about {
   text-align: center;
 }
@@ -150,7 +131,6 @@ address {
   line-height: 1.8;
 }
 
-/* セクション menu */
 .menu {
   text-align: center;
 }
@@ -168,7 +148,6 @@ address {
   letter-spacing: 0.5px;
 }
 
-/* セクション photos */
 .photos {
   text-align: center;
 }
@@ -205,7 +184,6 @@ address {
   text-align: left;
 }
 
-/* セクション access */
 .access {
   text-align: center;
 }
@@ -230,9 +208,6 @@ address {
   height: auto;
 }
 
-/* ========================================
-   フッターエリア
-   ======================================== */
 footer {
   background-color: #00712D;
   color: #ffffff;
